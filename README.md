@@ -1,2 +1,3 @@
 # ansible_tuts
-This is my awesome ansible repository
+ansible command for pinging servers
+ansible all -i inventory -m ping -u [username] -k  --private-key=[keyname]
